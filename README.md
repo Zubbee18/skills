@@ -250,7 +250,7 @@ notion-mcp/
 
 ---
 
-## License
+## Skills
 
 1. **Community** — Start by finding your people
 2. **Validate** — Make sure the problem is worth solving
@@ -294,3 +294,15 @@ cp .env.example .env
 # Add your NOTION_API_KEY, ANTHROPIC_API_KEY, NOTION_PAGE_ID
 node agent.js
 ```
+
+## License
+
+MIT — see [LICENSE](../LICENSE) for details.
+
+### Attribution
+
+This project is built on top of [slavingia/skills](https://github.com/slavingia/skills)
+by [Sahil Lavingia](https://github.com/slavingia), which is also MIT licensed.
+
+The Notion MCP integration (`notion-mcp/`) was developed by
+[Deborah Anyachukwu](https://github.com/Zubbee18) as an extension of that original work.
