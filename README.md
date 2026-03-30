@@ -4,6 +4,9 @@ An AI-powered coaching agent that reads your Notion pages and writes back struct
 
 No paid AI subscription needed. Uses the **free tier of OpenRouter**.
 
+> **Note:** This is a fork of [slavingia/skills](https://github.com/slavingia/skills)
+> by Sahil Lavingia. The `notion-mcp/` directory is original work added by
+> [Deborah Anyachukwu](https://github.com/Zubbee18).
 ---
 
 ## What It Does
