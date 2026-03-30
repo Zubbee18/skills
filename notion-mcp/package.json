@@ -1,0 +1,27 @@
+{
+  "name": "minimalist-founder-os",
+  "version": "1.0.0",
+  "description": "Notion MCP-powered AI coaching agent using the Minimalist Entrepreneur skills framework",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js",
+    "batch": "node batch-coach.js",
+    "batch:dry": "node batch-coach.js --dry-run"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "@anthropic-ai/sdk": "^0.20.1",
+    "dotenv": "^16.4.5",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "cli-table3": "^0.6.4",
+    "minimist": "^1.2.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["notion", "mcp", "ai", "minimalist-entrepreneur", "claude", "anthropic"],
+  "author": "Zubbee18",
+  "license": "MIT"
+}
